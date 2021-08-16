@@ -10,6 +10,8 @@ public:
 
 	bool ProcessMessages();
 
+	void Update();
+
 	Engine();
 	~Engine();
 };

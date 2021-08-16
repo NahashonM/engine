@@ -2,12 +2,14 @@
 
 
 #include "RenderWindow.h"
+#include "Keyboard/Keyboard.h"
 
 
 class WindowContainer
 {
 protected:
 	RenderWindow renderWindow;
+	Keyboard keyboard;
 
 public:
 	
